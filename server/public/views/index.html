@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/" />
+    <meta charset="utf-8">
+    <title>Happy Days!</title>
+    <!-- STYLES -->
+
+    <!-- Load lib -->
+    <script src="vendors/node_modules/core-js/client/shim.min.js"></script>
+    <script src="vendors/node_modules/zone.js/dist/zone.js"></script>
+    <script src="vendors/node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="vendors/node_modules/systemjs/dist/system.src.js"></script>
+
+    <!-- CONFIGS -->
+    <script src="/config/systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+
+  </head>
+  <body>
+    <my-app>Loading...</my-app>
+  </body>
+</html>
