@@ -1,6 +1,7 @@
 // APP //
 // main or bootstrap, runs the app
 "use strict";
+///<reference path="../../../node_modules/angular2/typings/browser.d.ts"/>
 // imports needed for app
 var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
 var http_1 = require('@angular/http');

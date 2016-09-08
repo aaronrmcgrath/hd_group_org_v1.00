@@ -1,6 +1,8 @@
 // APP //
 // main or bootstrap, runs the app
 
+///<reference path="../../../node_modules/angular2/typings/browser.d.ts"/>
+
 // imports needed for app
 import { bootstrap } from '@angular/platform-browser-dynamic';
 import { HTTP_PROVIDERS } from '@angular/http';
